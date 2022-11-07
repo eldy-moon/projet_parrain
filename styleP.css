@@ -1,0 +1,45 @@
+@media screen and (max-width: 812px){
+    
+    main {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.1131rem 1.385rem 3.0888rem 2.2412rem;
+    }
+    
+    #olivier {
+        line-height: var(--font-36);
+    }
+
+    #burger_menu {
+        width: 3.0625rem;
+        height: 3.0625rem;
+        background: var(--orange);
+        border-radius: 100%;
+    }
+
+    #burger_menu span {
+        background: var(--white);
+        width: 1.1875rem;
+    }
+
+    #telephone, #numero, #mail, #adresse_mail, #olivier_imge {
+        display: none;
+    }
+
+    #presentation {
+        background: none;
+    }
+
+    #presentation_sv2 {
+        display: block;
+        padding: 0;
+    }
+
+    #presentation_text {
+        display: block;
+    }
+}
