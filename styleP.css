@@ -5,9 +5,12 @@
     }
 
     header {
-        display: flex;
-        justify-content: space-between;
-        padding: 1.1131rem 2.2412rem 3.0888rem 1.7919rem;
+        grid-template-columns: auto;
+        padding: 1.1131rem 1.385rem 0 1.7919rem;
+    }
+
+    .barre_left::after {
+        width: 24%;
     }
     
     #olivier {
@@ -24,6 +27,7 @@
     #burger_menu span {
         background: var(--white);
         width: 1.1875rem;
+        margin-right: 0;
     }
 
     #telephone, #numero, #mail, #adresse_mail, #olivier_imge {
@@ -35,11 +39,66 @@
     }
 
     #presentation_sv2 {
-        display: block;
-        padding: 0;
+        grid-template-columns: 100%;
+        padding: 0 .7331rem 2.3937rem 1.8294rem;
     }
 
     #presentation_text {
-        display: block;
+        grid-template-rows: 3.5625rem 4rem 6.25rem 6.875rem 3.4375rem 2.1875rem;
+    }
+
+    #presentation_hola {
+        font-size: 2.5rem;
+    }
+
+    #presentation_dev {
+        width: 95%;
+    }
+
+    #client {
+        padding: 0 2.2056rem;
+        text-align: left;
+    }
+
+    footer {
+        padding: 0 1.6431rem;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #calque_1 {
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 1.75rem;
+    }
+
+    #calque_2 {
+        grid-column: 2;
+        grid-row: 1;
+        padding-left: 2.375rem;
+    }
+
+    #calque_3 {
+        grid-column: 1;
+        grid-row: 2;
+        width: 90%;
+    }
+
+    #calque_4 {
+        grid-column: 2;
+        grid-row: 2;
+        width: 90%;
+    }
+
+    #calque_5 {
+        grid-column: 1;
+        grid-row: 3;
+        width: 90%;
+    }
+
+    #calque_6 {
+        grid-column: 2;
+        grid-row: 3;
+        width: 90%;
     }
 }
