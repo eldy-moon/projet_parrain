@@ -10,7 +10,7 @@
     }
 
     .barre_left::after {
-        width: 24%;
+        width: 22%;
     }
     
     #olivier {
@@ -44,15 +44,37 @@
     }
 
     #presentation_text {
-        grid-template-rows: 3.5625rem 4rem 6.875rem 6.875rem 3.4375rem 2.1875rem;
+        grid-template-rows: 3.5625rem 4rem 7.5rem 6.875rem 3.4375rem 2.1875rem;
     }
 
     #presentation_hola {
         font-size: 2.5rem;
     }
 
+    #presentation_text::before {
+        content: "+";
+        color: var(--orange);
+        grid-column: 1;
+        grid-row: 3;
+        font-size: 2rem;
+        position: relative;
+        top: 5.375rem;
+        left: 2.8125rem;
+    }
+
+    #presentation_text::after {
+        content: "+";
+        color: var(--white);
+        grid-column: 1;
+        grid-row: 4;
+        font-size: 2rem;
+        position: relative;
+        top: 3.4375rem;
+        left:17.4375rem;
+    }
+
     #presentation_dev {
-        width: 95%;
+        width: 80%;
     }
 
     #client {
@@ -69,7 +91,7 @@
     #calque_1 {
         grid-column: 1;
         grid-row: 1;
-        padding-left: 1.75rem;
+        padding-left: 2.375rem;
     }
 
     #calque_2 {
@@ -81,7 +103,8 @@
     #calque_3 {
         grid-column: 1;
         grid-row: 2;
-        width: 90%;
+        width: 80%;
+        padding-left: 1.125rem;
     }
 
     #calque_4 {
@@ -93,7 +116,7 @@
     #calque_5 {
         grid-column: 1;
         grid-row: 3;
-        width: 90%;
+        width: 80%;
     }
 
     #calque_6 {
