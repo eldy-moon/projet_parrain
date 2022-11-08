@@ -12,6 +12,7 @@
     .barre_left::after {
         width: 22%;
     }
+
     
     #olivier {
         line-height: var(--font-36);
@@ -38,12 +39,19 @@
         background: none;
     }
 
+    #presentation_sv2 img {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
     #presentation_sv2 {
-        grid-template-columns: 100%;
+        grid-template-columns: 1fr 1px;
         padding: 0 .7331rem 2.3937rem 1.8294rem;
     }
 
     #presentation_text {
+        grid-template-columns: 1px 1fr 1px;
         grid-template-rows: 3.5625rem 4rem 7.5rem 6.875rem 3.4375rem 2.1875rem;
     }
 
