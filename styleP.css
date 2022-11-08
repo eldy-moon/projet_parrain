@@ -1,12 +1,16 @@
 @media screen and (max-width: 812px){
-    
-    main {
+
+    #big_contener {
         width: 100%;
     }
+    
+    /* main {
+        
+    } */
 
     header {
-        grid-template-columns: auto;
-        padding: 1.1131rem 1.385rem 0 1.7919rem;
+        grid-template-columns: 17.4375rem 3.0625rem;
+        padding: 0;
     }
 
     .barre_left::after {
@@ -19,10 +23,13 @@
     }
 
     #burger_menu {
-        width: 3.0625rem;
-        height: 3.0625rem;
+        width: 2.125rem;
+        height: 2.4375rem;
         background: var(--orange);
         border-radius: 100%;
+        padding-left: 2.4375rem;
+        padding-top: .625rem;
+        margin-top: 0;
     }
 
     #burger_menu span {
@@ -37,22 +44,29 @@
 
     #presentation {
         background: none;
+        padding: 1.1131rem 1.385rem 0 1.7919rem;
     }
 
     #presentation_sv2 img {
+        grid-column: 2;
+        grid-row: 1;
         width: 0;
         height: 0;
         display: none;
     }
 
     #presentation_sv2 {
-        grid-template-columns: 1fr 1px;
-        padding: 0 .7331rem 2.3937rem 1.8294rem;
+        grid-template-columns: 1fr;
+        padding: 0;
     }
 
     #presentation_text {
-        grid-template-columns: 1px 1fr 1px;
+        grid-template-columns: 0px 1fr 0px;
         grid-template-rows: 3.5625rem 4rem 7.5rem 6.875rem 3.4375rem 2.1875rem;
+    }
+
+    #presentation_fullstack, #presentation_hola, #presentation_oli, #presentation_dev, #presentation_dir, #presentation_bt {
+        grid-column: 2;
     }
 
     #presentation_hola {
@@ -60,9 +74,10 @@
     }
 
     #presentation_text::before {
+        width: 10%;
         content: "+";
         color: var(--orange);
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 3;
         font-size: 2rem;
         position: relative;
@@ -71,9 +86,10 @@
     }
 
     #presentation_text::after {
+        width: 10%;
         content: "+";
         color: var(--white);
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 4;
         font-size: 2rem;
         position: relative;
@@ -86,12 +102,12 @@
     }
 
     #client {
-        padding: 0 2.2056rem;
+        padding: 3.125rem 0 0 .75rem;
         text-align: left;
     }
 
     footer {
-        padding: 0 1.6431rem;
+        padding: 0;
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr 1fr 1fr;
     }

@@ -51,7 +51,7 @@ body {
 
 main {
     width: min(100%, 116.25rem);
-    margin: 0 auto 0 auto;
+    margin: 0;
 }
 
 /* ********** COMMUNS ********** */
