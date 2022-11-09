@@ -17,6 +17,7 @@
         width: 22%;
     }
 
+    /* ********************  PRESENTATION  ******************** */
     
     #olivier {
         line-height: var(--font-36);
@@ -148,5 +149,12 @@
         grid-row: 3;
         width: 90%;
     }
+
+    /* ********************  COMPETENCES  ******************** */
+    
+    #competences {
+        background: none;
+    }
+
     
 }
