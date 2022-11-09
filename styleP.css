@@ -11,6 +11,7 @@
     header {
         grid-template-columns: auto;
         padding: 0;
+        width: 90%;
     }
 
     .barre_left::after {
@@ -58,7 +59,7 @@
 
     #presentation_sv2 {
         grid-template-columns: 1fr;
-        padding: 0;
+        padding: 3.75rem 0 0 0;
     }
 
     #presentation_text {
@@ -154,7 +155,84 @@
     
     #competences {
         background: none;
+        display: block;
+        padding: 4.5225rem 1.385rem 3.0675rem 1.7919rem;
     }
 
-    
+    #competence_titre {
+        line-height: 3.75rem;
+        text-align: left;
+        padding: 0;
+    }
+
+    #competence_titre::after {
+        top: 4.125rem;
+        left: .5rem;
+    }
+
+    #competences_para {
+        width: 87%;
+        text-align: left;
+        padding: 1.825rem 0 2.5375rem 0;
+    }
+
+    #competences_icon {
+        padding: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 3.7625rem 1.9375rem 5.3875rem);
+        column-gap: 0rem;
+        row-gap: .5rem;
+    }
+
+    #technique_font, #technique_icon, #technique_titre, #technique_para, #gestion_font, #gestion_icon, #gestion_titre, #gestion_para, #management_font, #management_icon, #management_titre, #management_para, #langues_font, #langues_icon, #langues_titre, #langues_para {
+        grid-column: 1;
+    }
+
+    #technique_font, #technique_icon {
+        grid-row: 1;
+    }
+
+    #technique_titre {
+        grid-row: 2;
+    }
+
+    #technique_para {
+        grid-row: 3;
+    }
+
+    #gestion_font, #gestion_icon {
+        grid-row: 4;
+    }
+
+    #gestion_titre {
+        grid-row: 5;
+    }
+
+    #gestion_para {
+        grid-row: 6;
+    }
+
+    #management_font, #management_icon {
+        grid-row: 7;
+    }
+
+    #management_titre {
+        grid-row: 8;
+    }
+
+    #management_para {
+        grid-row: 9;
+    }
+
+    #langues_font, #langues_icon {
+        grid-row: 10;
+    }
+
+    #langues_titre {
+        grid-row: 11;
+    }
+
+    #langues_para {
+        grid-row: 12;
+    }
 }
