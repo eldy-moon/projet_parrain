@@ -235,4 +235,55 @@
     #langues_para {
         grid-row: 12;
     }
+
+    /* ********************  PORFOLIO  ******************** */
+
+    #portfolio {
+        background: none;
+        display: block;
+        padding: 0 31.73px 3px 29.51px;
+    }
+
+    .phone {
+        visibility: visible;
+    }
+
+    .desktop {
+        visibility: hidden;
+    }
+
+    #portfolio_photo {
+        grid-template-columns: 0 19.5625rem 0;
+        grid-template-rows: repeat(6, 264px);
+    }
+
+    #astro_phone {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #desk_phone {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #paint_phone {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #milk_phone {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    #enigma_phone {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    #blue_phone {
+        grid-column: 1;
+        grid-row: 6;
+    }
 }
