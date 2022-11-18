@@ -14,6 +14,15 @@
         width: 90%;
     }
 
+    #big_contener {
+        width: min(100%, 50.75rem);
+        margin: auto;
+    }
+
+    main {
+        width: 100%;
+    }
+
     .barre_left::after {
         width: 22%;
     }
@@ -238,10 +247,28 @@
 
     /* ********************  PORFOLIO  ******************** */
 
+    #astro, #desk, #paint, #milk, #enigma, #blue {
+        width: 200px;
+    }
+
     #portfolio {
         background: none;
         display: block;
-        padding: 0 31.73px 3px 29.51px;
+        padding: 0 0 3px 29.51px;
+        width: 80%;
+    }
+
+    #portfolio_titre {
+        padding-bottom: 2.5675rem;
+    }
+
+
+    #portfolio_portfolio::after {
+        top: 4.0625rem;
+    }
+
+    #portfolio_text {
+        width: 83%;
     }
 
     .phone {
@@ -253,37 +280,39 @@
     }
 
     #portfolio_photo {
-        grid-template-columns: 0 19.5625rem 0;
-        grid-template-rows: repeat(6, 264px);
+        grid-template-columns: 0 19.5625rem 0 0;
+        grid-template-rows: 171px 264px 264px 264px 264px 264px;
+        column-gap: 0;
+        row-gap: 1.7612rem;
     }
 
-    #astro_phone {
-        grid-column: 1;
+    #astro_phone, #astro {
+        grid-column: 2;
         grid-row: 1;
     }
 
-    #desk_phone {
-        grid-column: 1;
+    #desk_phone, #desk {
+        grid-column: 2;
         grid-row: 2;
     }
 
-    #paint_phone {
+    #paint_phone, #paint {
         grid-column: 1;
         grid-row: 3;
     }
 
-    #milk_phone {
-        grid-column: 1;
+    #milk_phone, #milk {
+        grid-column: 2;
         grid-row: 4;
     }
 
-    #enigma_phone {
-        grid-column: 1;
+    #enigma_phone, #enigma {
+        grid-column: 2;
         grid-row: 5;
     }
 
-    #blue_phone {
-        grid-column: 1;
+    #blue_phone, #blue {
+        grid-column: 2;
         grid-row: 6;
     }
 }

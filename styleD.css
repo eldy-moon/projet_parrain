@@ -49,9 +49,13 @@ body {
     background: var(--black-20);
 }
 
-main {
+#big_contener{
     width: min(100%, 116.25rem);
     margin: auto;
+}
+
+main {
+    width: 100%;
 }
 
 /* ********************  COMMUNS  ******************** */
