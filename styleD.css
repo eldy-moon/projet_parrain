@@ -539,6 +539,7 @@ footer {
     font-weight: 700;
     line-height: 1.0625rem;
     text-transform: uppercase;
+    letter-spacing: .125rem;
 }
 
 .experience_semiblod {

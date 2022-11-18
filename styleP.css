@@ -315,4 +315,89 @@
         grid-column: 2;
         grid-row: 6;
     }
+
+    /* ********************  EXPERIENCE  ******************** */
+
+    #experience_web, #experience_directeur, #experience_developper {
+        width: 1.1875rem;
+        height: 1.125rem;
+    }
+
+    #experience_directeur_text, #experience_developper_text, #experience_web_text {
+        width: 10%;
+        visibility: hidden;
+    }
+
+    .barre_gray::after {
+        width: 0;
+        display: none;
+    }
+
+    #experience {
+        grid-template-columns: 49px 249px 0 0;
+        grid-template-rows: 107px 168px 30px 76px 32px 76px 31px 71px 47px;
+        padding: 83.35px 40px 0 30px;
+    }
+
+    #experience_titre {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #experience_nece {
+        grid-column: 1/3;
+        grid-row: 2;
+        padding: 0;
+    }
+
+    #experience_button {
+        grid-column: 1/3;
+        grid-row: 9;
+        margin: 0 6.5625rem 0 0;
+    }
+
+    #experience_web {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #experience_aujourdhui {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    #experience_webd {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    #experience_directeur {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    #experience_mai {
+        grid-column: 2;
+        grid-row: 5;
+    }
+
+    #experience_direct {
+        grid-column: 2;
+        grid-row: 6;
+    }
+
+    #experience_developper {
+        grid-column: 1;
+        grid-row: 7;
+    }
+
+    #experience_sept {
+        grid-column: 2;
+        grid-row: 7;
+    }
+
+    #experience_develo {
+        grid-column: 2;
+        grid-row: 8;
+    }
 }
