@@ -72,7 +72,7 @@ a {
     position: relative;
 }
 
-#presentation_fullstack::after, .barre_left::after, .barre_center::after, #competence_titre::after, #portfolio_portfolio::after {
+#presentation_fullstack::after, .barre_left::after, .barre_center::after, #competence_titre::after, #portfolio_portfolio::after, #experience_titre::after {
     content: "";
     display: block;
     position: absolute;
@@ -94,6 +94,10 @@ a {
     top: 3.4375rem;
 }
 
+#experience_titre::after {
+    top: 4.875rem;
+}
+
 .barre_left::after {
     top: 2rem;
     left: 0;
@@ -102,6 +106,20 @@ a {
 
 .barre_center::after {
     left: 5rem;
+}
+
+.barre_gray {
+    position: relative;
+}
+
+.barre_gray::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 45.625rem;
+    height: .0625rem;
+    border-top: .0625rem solid var(---blood-grey);
+    top: 8.75rem;
 }
 
 .button {
@@ -516,25 +534,48 @@ footer {
     height: 1.5rem;
 }
 
+.experience_bold {
+    font-size: var(--font-12);
+    font-weight: 700;
+    line-height: 1.0625rem;
+    text-transform: uppercase;
+}
+
+.experience_semiblod {
+    font-size: var(--font-18);
+    font-weight: 700;
+    line-height: 1.625rem;
+    text-transform: capitalize;
+}
+
 #experience {
     display: grid;
-    grid-template-columns: 22.6875rem 3.0625rem 15.125rem 20.375rem;
+    grid-template-columns: 22.6875rem 3.0625rem 20.5rem 20.5rem;
     grid-template-rows: 1.75rem 8.8125rem 1.875rem 8.6875rem 1.875rem 6.75rem;
+    padding: 8rem 28.125rem 100px 21.25rem ;
+    background: var(--black-23);
 }
 
 #experience_titre {
+    text-transform: capitalize;
+    font-size: var(--font-36);
+    line-height: 3.75rem;
     grid-column: 1;
     grid-row: 2;
 }
 
 #experience_nece {
+    width: 75%;
+    font-size: .875rem;
     grid-column: 1;
     grid-row: 2/4;
+    padding-top: 107px ;
 }
 
 #experience_button {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 4/6;
+    margin: 7.75rem 10.75rem 0 0;
 }
 
 #experience_web {
@@ -548,17 +589,16 @@ footer {
 #experience_aujourdhui {
     grid-column: 3;
     grid-row: 1;
-    text-transform: uppercase;
 }
 
 #experience_webd {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 2;
 }
 
 #experience_web_text {
     grid-column: 4;
-    grid-row: 2;
+    grid-row: 1;
 }
 
 #experience_directeur {
@@ -572,7 +612,6 @@ footer {
 #experience_mai {
     grid-column: 3;
     grid-row: 3;
-    text-transform: uppercase;
 }
 
 #experience_direct {
@@ -582,7 +621,7 @@ footer {
 
 #experience_directeur_text {
     grid-column: 4;
-    grid-row: 4;
+    grid-row: 3;
 }
 
 #experience_developper {
@@ -596,7 +635,6 @@ footer {
 #experience_sept {
     grid-column: 3;
     grid-row: 5;
-    text-transform: uppercase;
 }
 
 #experience_develo {
@@ -605,6 +643,7 @@ footer {
 }
 
 #experience_developper_text {
+    width: 90%;
     grid-column: 4;
-    grid-row: 6;
+    grid-row: 5;
 }
