@@ -68,11 +68,11 @@ a {
     text-decoration: none;
 }
 
-#presentation_fullstack, .barre_left, .barre_center, #competence_titre {
+#presentation_fullstack, .barre_left, .barre_center, #competence_titre, #portfolio_portfolio, #experience_titre, #_competences_titre {
     position: relative;
 }
 
-#presentation_fullstack::after, .barre_left::after, .barre_center::after, #competence_titre::after, #portfolio_portfolio::after, #experience_titre::after {
+#presentation_fullstack::after, .barre_left::after, .barre_center::after, #competence_titre::after, #portfolio_portfolio::after, #experience_titre::after, #_competences_titre::after {
     content: "";
     display: block;
     position: absolute;
@@ -82,20 +82,25 @@ a {
 }
 
 .presentation_fullstack::after {
-    top: 2.3125rem;
+    top: 37px;
     left: 0;
 }
 
 #competence_titre::after {
+    top: 13.875rem;
     left: 55.75rem;
 }
 
 #portfolio_portfolio::after {
-    top: 3.4375rem;
+    top: 4.0625rem;
 }
 
 #experience_titre::after {
     top: 4.875rem;
+}
+
+#_competences_titre::after {
+    top: 4.125rem;
 }
 
 .barre_left::after {
@@ -148,6 +153,7 @@ a {
     border-radius: 1.125rem;
     width: 3.25rem;
     height: 3.25rem;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
 }
 
 .pourcentage {
@@ -157,6 +163,8 @@ a {
     background: var(--orange);
     color: var(--black-2c);
     text-align: center;
+    margin-left: auto;
+    margin-right: 1.5625rem;
 }
 
 .fond_logo {
@@ -679,14 +687,13 @@ footer {
 
 #_competences_logo {
     display: grid;
-    grid-template-columns: 238px 73px 171px 69px 47px 75px;
+    grid-template-columns: 14.875rem 4.5625rem 10.6875rem 4.3125rem 2.9375rem 4.6875rem;
     grid-template-rows: repeat(4, 3.75rem);
-    column-gap: 1.5rem;
     row-gap: 1.5rem;
 }
 
 #angular {
-    width: 299px;
+    width: 18.6875rem;
     display: flex;
     align-items: center;
     grid-column: 1/3;
@@ -699,11 +706,12 @@ footer {
     background-size: 3.125rem 5.8125rem;
     background-position-x: 0rem;
     background-position-y: 0rem;
-    margin-left: 0 30px 0 23px;
+    margin: 0 30px 0 23px;
 }
 
 #react {
-    width: 350px;
+    margin-left: .6875rem;
+    width: 21.875rem;
     display: flex;
     align-items: center;
     grid-column: 3/7;
@@ -716,11 +724,11 @@ footer {
     background-size: 3.125rem 5.8125rem;
     background-position-x: -1.5625rem;
     background-position-y: 0rem;
-    margin-left: 0 30px 0 23px;
+    margin: 0 30px 0 23px;
 }
 
 #node_js {
-    width: 226px;
+    width: 14.125rem;
     display: flex;
     align-items: center;
     grid-column: 1;
@@ -733,11 +741,12 @@ footer {
     background-size: 3.125rem 5.8125rem;
     background-position-x: 0rem;
     background-position-y: -1.5rem;
-    margin-left: 0 30px 0 23px;
+    margin: 0 30px 0 23px;
 }
 
 #management {
-    width: 301px;
+    margin-left: .8125rem;
+    width: 18.8125rem;
     display: flex;
     align-items: center;
     grid-column: 2/5;
@@ -750,11 +759,11 @@ footer {
     background-size: 3.125rem 5.8125rem;
     background-position-x: -1.625rem;
     background-position-y: -1.5rem;
-    margin-left: 0 30px 0 23px;
+    margin: 0 30px 0 23px;
 }
 
 #analytics {
-    width: 287px;
+    width: 17.9375rem;
     display: flex;
     align-items: center;
     grid-column: 1/3;
@@ -767,11 +776,12 @@ footer {
     background-size: 50px 93px;
     background-position-x: 0rem;
     background-position-y: -3rem;
-    margin-left: 0 30px 0 23px;
+    margin: 0 30px 0 23px;
 }
 
 #brainstroming {
-    width: 287px;
+    margin-left: .6875rem;
+    width: 17.9375rem;
     display: flex;
     align-items: center;
     grid-column: 3/6;
@@ -784,11 +794,11 @@ footer {
     background-size: 3.125rem 5.8125rem;
     background-position-x: -1.5625rem;
     background-position-y: -3rem;
-    margin-left: 0 30px 0 23px;
+    margin: 0 30px 0 23px;
 }
 
 #execution {
-    width: 482px;
+    width: 30.125rem;
     display: flex;
     align-items: center;
     grid-column: 1/4;
@@ -801,5 +811,19 @@ footer {
     background-size: 3.125rem 5.8125rem;
     background-position-x: 0rem;
     background-position-y: -4.5625rem;
-    margin-left: 0 30px 0 23px;
+    margin: 0 30px 0 23px;
+}
+
+#_competences_compt {
+    padding: 1.25rem 0 0 5.8125rem;
+}
+
+#_competences_titre {
+    text-transform: capitalize;
+    font-size: var(--font-36);
+    line-height: 3.75rem;
+}
+
+#_competences_nece {
+    padding-top: 3rem;
 }
