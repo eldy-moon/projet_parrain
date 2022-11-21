@@ -401,4 +401,10 @@
         grid-column: 2;
         grid-row: 8;
     }
+
+    /* ********************  _COMPETENCES_  ******************** */
+
+    #_competences {
+        display: none;
+    }
 }
