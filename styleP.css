@@ -523,6 +523,6 @@
     #actualites_vous {
         grid-column: 1;
         grid-row: 10;
-        width: 100%;
+        width: 85%;
     }
 }
