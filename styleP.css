@@ -456,4 +456,73 @@
         grid-column: 1;
         grid-row: 3;
     }
+
+    /* ********************  ACTUALITES  ******************** */
+
+    #actualites {
+        background: none;
+        padding: 5.125rem 2.375rem 0 2.375rem;
+        grid-template-columns: 355px;
+        grid-template-rows: 109px 26px 88px 154px 27px 44px 145px 35px 70px 72px;
+    }
+
+    #actualites_actualites {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #actualites_actualites::after {
+        top: 4.6875rem;
+        left: 0;
+    }
+    
+    #actualites_aout {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #actualites_omote {
+        grid-column: 1;
+        grid-row: 3;
+        width: 75%;
+    }
+    
+    #actualites_live {
+        grid-column: 1;
+        grid-row: 4;
+        width: 60%;
+    }
+    
+    #actualites_novembre {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    #actualites_forest {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    
+    #actualites_movie {
+        grid-column: 1;
+        grid-row: 7;
+        width: 55%;
+    }
+    
+    #actualites_octobre {
+        grid-column: 1;
+        grid-row: 8;
+    }
+    
+    #actualites_atoms {
+        grid-column: 1;
+        grid-row: 9;
+        width: 85%;
+    }
+    
+    #actualites_vous {
+        grid-column: 1;
+        grid-row: 10;
+        width: 100%;
+    }
 }
