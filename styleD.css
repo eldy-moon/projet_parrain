@@ -23,7 +23,7 @@
     --white: #ffffff;
     --dark-grey: #ADB5BD29;
     --light-grey: #828282;
-    ---blood-grey: #bfbfbf;
+    --blood-grey: #bfbfbf;
     --grey: #e5e9f1;
     --black-23: #232323;
     --black-20: #202020;
@@ -139,7 +139,7 @@ a {
     position: absolute;
     width: 45.625rem;
     height: .0625rem;
-    border-top: .0625rem solid var(---blood-grey);
+    border-top: .0625rem solid var(--blood-grey);
     top: 8.75rem;
 }
 
@@ -338,7 +338,7 @@ a {
     line-height: 1.9375rem;
     letter-spacing: .1875rem;
     text-transform: uppercase;
-    color: var(---blood-grey);
+    color: var(--blood-grey);
     text-align: center;
     padding: 214px 0 0 0;
 }
@@ -1026,7 +1026,7 @@ a {
 
 #contact_head {
     display: grid;
-    grid-template-columns: 3.6875rem 31.4375rem;
+    grid-template-columns: 4.125rem 31.4375rem;
     grid-template-rows: 5.375rem 1.875rem 7.5625rem 1.625rem 5.3125rem 1.625rem 2rem;
     padding-top: 2rem;
 }
@@ -1036,7 +1036,7 @@ a {
     font-weight: 600;
     line-height: 3.75rem;
     text-transform: capitalize;
-    color: var(---blood-grey);
+    color: var(--blood-grey);
 }
 
 #icon_adresse {
