@@ -876,7 +876,7 @@ a {
 #temoignages_groupe::before {
     grid-column: 1;
     grid-row: 1;
-    content: url(/images/vector.svg);
+    content: url(images/vector.svg);
     position: relative;
     display: block;
     width: 2.4375rem;
@@ -885,7 +885,7 @@ a {
 }
 
 #temoignages_photo {
-    background: url(/images/tem.avif) no-repeat;
+    background: url(images/tem.avif) no-repeat;
     grid-column: 1;
     grid-row: 1;
 }
