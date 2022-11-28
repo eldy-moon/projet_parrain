@@ -548,11 +548,6 @@ a {
     border-radius: 1.25rem;
 }
 
-#astro, #desk, #paint, #milk, #enigma, #blue {
-    width: 10%;
-    height: auto;
-}
-
 #astro, #astro_phone {
     grid-column: 1/4;
     grid-row: 1;

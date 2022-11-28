@@ -248,7 +248,8 @@
     /* ********************  PORFOLIO  ******************** */
 
     #astro, #desk, #paint, #milk, #enigma, #blue {
-        width: 200px;
+        width: 10%;
+        height: auto;
     }
 
     #portfolio {
